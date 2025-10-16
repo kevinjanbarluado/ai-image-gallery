@@ -36,10 +36,21 @@ An intelligent image gallery application that uses AI to analyze and categorize 
    
    **Server (.env):**
    ```
+   # Server Configuration
    PORT=3000
-   SUPABASE_URL=your_supabase_url
-   SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
-   GEMINI_API_KEY=your_gemini_api_key
+   NODE_ENV=development
+   
+   # Supabase Configuration
+   SUPABASE_URL=your_supabase_url_here
+   SUPABASE_ANON_KEY=your_supabase_anon_key_here
+   SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key_here
+   
+   # Google Gemini API
+   GEMINI_API_KEY=your_gemini_api_key_here
+   
+   # Upload Configuration
+   MAX_FILE_SIZE=10485760
+   ALLOWED_FORMATS=image/jpeg,image/png
    ```
    
    **Client (.env):**
