@@ -2,6 +2,10 @@
 
 ![Main Application View](docs/images/main.png)
 
+**Other resources:**
+- [image 1](docs/images/image_1.png) 
+- [image 2](docs/images/image_2.png)
+
 **Assessment by:** Kevin Jan Barluado
 
 An intelligent image gallery application that uses AI to analyze and categorize uploaded images. Built with React, Node.js, Supabase, and Google Gemini AI.
