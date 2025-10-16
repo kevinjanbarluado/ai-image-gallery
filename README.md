@@ -88,7 +88,6 @@ The AI processes images in the background and extracts:
 ## Limitations / To Do
 
 - **Dockerization:** Container setup for easy deployment
-- **Password Reset Flow:** Forgot password modal exists but reset page is missing
 - **Testing:** Unit tests, integration tests, E2E tests
 - **Error Handling:** More comprehensive error handling and user feedback
 - **Image Optimization:** WebP conversion, lazy loading
