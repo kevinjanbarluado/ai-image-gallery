@@ -85,6 +85,16 @@ The AI processes images in the background and extracts:
 
 📋 **For detailed AI service comparison and evaluation process, see:** [`docs/AI_SERVICE_COMPARISON.md`](docs/AI_SERVICE_COMPARISON.md)
 
+## Limitations / To Do
+
+- **Dockerization:** Container setup for easy deployment
+- **Password Reset Flow:** Forgot password modal exists but reset page is missing
+- **Testing:** Unit tests, integration tests, E2E tests
+- **Error Handling:** More comprehensive error handling and user feedback
+- **Image Optimization:** WebP conversion, lazy loading
+- **Offline Support:** PWA features for offline image viewing
+- **Admin Panel:** User management and analytics dashboard
+
 ## Tech Stack
 
 - **Frontend:** React, TypeScript, Vite, Tailwind CSS
